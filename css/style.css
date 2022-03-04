@@ -1,0 +1,237 @@
+/* #08526d  #ec1c23 */
+/*Start puplic CSS*/
+body{
+    font-family: 'alsarout';
+    background: #0f1932;
+    color: #fff;
+}
+.mt{
+    margin-top: 60.25px;
+}
+li{
+    list-style: none;
+}
+a:hover,
+.card-footer span:hover,
+.card-footer button:hover{
+    color:#ef1941!important;
+}
+.navbar-nav .nav-link:hover
+{
+    color:#e83a5b!important;
+}
+
+.about ul li a,
+.menu-phone .type-name a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 17px;
+}
+h4{
+    color:#fff;
+    text-align:center;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+/*End puplic CSS*/
+/*=====================================================================*/
+/*Start Navbar*/
+.navbar-brand > span{
+    font-size:25px;
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    color:#ec1c23;
+}
+.navbar-brand span:last-child{
+    color:#fff;
+}
+.navbar-collapse {
+    text-align: center;
+}
+.bg-light {
+    background-color: #0f1932!important;
+}
+.navbar-nav .nav-link{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#ec1c23!important;
+}
+/*End Navbar*/
+/*=======================================================================*/
+/* Start Carousel */
+.carousel .carousel-inner .carousel-item  img{
+    height: calc(100vh - 60.25px);
+}
+.carousel .carousel-inner .carousel-item .carousel-caption{
+    bottom: 40%;
+}
+/* End Carousel */
+/*======================================================================*/
+/* Start Latest product Added */
+.main .card{
+    border: 1px solid #fff;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.card-img-overlay{
+    display: none;
+    background: #0f1932ed;
+}
+.card-img{
+    height: 340px;
+}
+.main .card .card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.card .card-img-overlay p:nth-of-type(2) {
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.6em;
+}
+.card-img-overlay .exit{
+    position: absolute;
+    top: 2px;
+    right: 8px; 
+    cursor: pointer;
+}
+.card .card-body{
+    background: #0f1932;
+    height: 115px;
+}
+.card .card-img-overlay p.card-text{
+    font-size: 1.5em;
+}
+p.card-text {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.card-text:last-child {
+    color: #e9dfdf;
+}
+.active{
+    display:block;
+}
+.card-footer {
+    background: #0f1932;
+}
+.card-footer button{
+    position: relative;
+    float: right;
+    background: none;
+    border: none;
+    
+}
+.card-footer span,
+.card-footer button{
+    cursor: pointer;
+    padding-right: 15px;
+    font-size: 16px;
+    color: #e83a5b;
+    }
+del{
+    font-size: 17px;
+}
+@media (max-width: 768px){
+    main .card{
+        width: 70%!important;
+    }
+}
+/* End Latest product Added */
+/*======================================================================*/
+/* Start Contact */
+
+label{
+    color: #fff;
+    transition: .5s;
+    font-weight: bold;
+}
+.form-control:focus,
+.form-control{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color:#fff;
+    background-color:transparent;
+    border-bottom: 2px solid #a59090;
+    font-size: 18px;
+}
+.btn-danger {
+    color: #fff;
+    border-color: #e83a5b;
+    background: #e83a5b;
+}
+.btn-danger:hover{
+    color: #fff!important;
+    border-color: #f70067!important;
+    background: #ef1941!important;
+}
+/* End Contact */
+/*======================================================================*/
+/* Start About Me */
+.about{
+    background: #183351;
+    margin-top: 10px;
+}
+.about h3{
+    font-weight: bold;
+    
+}
+.about h3::after{
+    content:"";
+    border-bottom: 2px solid #ec1c23;
+    width: 20%;
+    display: block;
+}
+.about ul{
+    padding-left: 0;
+}
+.about ul li {
+    padding-bottom: 15px;
+}
+.about ul li a{
+    color: #fff;
+}
+@media (max-width: 768px){
+    .about{
+        text-align: center;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .about h3::after{
+        margin: 0 auto;
+    }
+}
+/* End About Me */
+/*======================================================================*/
+.menu-phone{
+    color: #fff;
+    text-align: center;
+}
+.menu-phone .type-name img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+div.type-name{
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+div.type-name p{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
